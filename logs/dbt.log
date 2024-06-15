@@ -7207,3 +7207,47 @@ GRANT SELECT ON airbnb.DEV.mart_fullmoon_reviews TO ROLE REPORTER
 [0m12:53:40.813866 [debug] [MainThread]: Command `dbt run` succeeded at 12:53:40.812866 after 13.70 seconds
 [0m12:53:40.813866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0BD337290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0BD337590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A0B6FFA310>]}
 [0m12:53:40.813866 [debug] [MainThread]: Flushing usage events
+[0m13:04:27.354437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BCCAA844D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BCCA867010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BCCAA84190>]}
+
+
+============================== 13:04:27.357443 | b7de059d-92e3-4640-8262-25a4fdd96d28 ==============================
+[0m13:04:27.357443 [info ] [MainThread]: Running with dbt=1.8.2
+[0m13:04:27.357443 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tvkou\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\tvkou\\OneDrive\\Desktop\\code\\airbnb\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run-operation learn_logging', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:04:28.043601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b7de059d-92e3-4640-8262-25a4fdd96d28', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BCDBEAF2D0>]}
+[0m13:04:28.098779 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b7de059d-92e3-4640-8262-25a4fdd96d28', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BCC9E4A890>]}
+[0m13:04:28.100797 [info ] [MainThread]: Registered adapter: snowflake=1.8.2
+[0m13:04:28.110859 [debug] [MainThread]: checksum: f0a141b9de567cb7f131613ba2682f40b3a1c6a157f81c6e5435862eff68f109, vars: {}, profile: , target: , version: 1.8.2
+[0m13:04:28.261982 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:04:28.261982 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:04:28.314933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b7de059d-92e3-4640-8262-25a4fdd96d28', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BCCAA97B10>]}
+[0m13:04:28.423572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b7de059d-92e3-4640-8262-25a4fdd96d28', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BCDD09D750>]}
+[0m13:04:28.423572 [info ] [MainThread]: Found 8 models, 1 snapshot, 8 data tests, 1 seed, 3 sources, 634 macros
+[0m13:04:28.424836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b7de059d-92e3-4640-8262-25a4fdd96d28', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BCDBF33B90>]}
+[0m13:04:28.425840 [debug] [MainThread]: Acquiring new snowflake connection 'macro_learn_logging'
+[0m13:04:28.429349 [debug] [MainThread]: TEST LOG
+[0m13:04:28.433870 [debug] [MainThread]: Command `dbt run-operation` succeeded at 13:04:28.433870 after 1.13 seconds
+[0m13:04:28.435350 [debug] [MainThread]: Connection 'macro_learn_logging' was properly closed.
+[0m13:04:28.435350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BCCAAB1C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BCC44CB310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BCCAAE3FD0>]}
+[0m13:04:28.435350 [debug] [MainThread]: Flushing usage events
+[0m13:05:24.450584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E841C56D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E841C83550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E841C833D0>]}
+
+
+============================== 13:05:24.453585 | 6d3ebfe6-9caf-4877-8108-448fe5190bc2 ==============================
+[0m13:05:24.453585 [info ] [MainThread]: Running with dbt=1.8.2
+[0m13:05:24.455091 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\tvkou\\.dbt', 'log_path': 'C:\\Users\\tvkou\\OneDrive\\Desktop\\code\\airbnb\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run-operation learn_logging', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:05:25.155749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6d3ebfe6-9caf-4877-8108-448fe5190bc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E85302F990>]}
+[0m13:05:25.203926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6d3ebfe6-9caf-4877-8108-448fe5190bc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E84101A910>]}
+[0m13:05:25.205927 [info ] [MainThread]: Registered adapter: snowflake=1.8.2
+[0m13:05:25.213470 [debug] [MainThread]: checksum: f0a141b9de567cb7f131613ba2682f40b3a1c6a157f81c6e5435862eff68f109, vars: {}, profile: , target: , version: 1.8.2
+[0m13:05:25.362334 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:05:25.362334 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:05:25.410389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6d3ebfe6-9caf-4877-8108-448fe5190bc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E853069910>]}
+[0m13:05:25.503378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6d3ebfe6-9caf-4877-8108-448fe5190bc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8542540D0>]}
+[0m13:05:25.504379 [info ] [MainThread]: Found 8 models, 1 snapshot, 8 data tests, 1 seed, 3 sources, 634 macros
+[0m13:05:25.505633 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6d3ebfe6-9caf-4877-8108-448fe5190bc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E853103510>]}
+[0m13:05:25.506633 [debug] [MainThread]: Acquiring new snowflake connection 'macro_learn_logging'
+[0m13:05:25.511649 [info ] [MainThread]: TEST LOG
+[0m13:05:25.518368 [debug] [MainThread]: Command `dbt run-operation` succeeded at 13:05:25.518368 after 1.12 seconds
+[0m13:05:25.518873 [debug] [MainThread]: Connection 'macro_learn_logging' was properly closed.
+[0m13:05:25.518873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E83B6EB310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E841C56C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E841C9D490>]}
+[0m13:05:25.518873 [debug] [MainThread]: Flushing usage events
